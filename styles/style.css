@@ -1,9 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
 .gallery-container {
     max-width: 1000px;
     margin: 2rem auto;
     padding: 0 1rem;
     text-align: center;
-    font-family: Arial, sans-serif;
 }
 
 .image-grid {
@@ -24,6 +27,16 @@
 
 .image-grid img:hover {
     transform: scale(1.05);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .image-grid img {
+        transition: none;
+    }
+
+    .image-grid img:hover {
+        transform: none;
+    }
 }
 
 .package-container {
