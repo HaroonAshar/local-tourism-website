@@ -1,7 +1,8 @@
 node_modules
+.parcel-cache
+dist
 .git
 .gitignore
-Dockerfile
-.dockerignore
+README.md
 npm-debug.log
 .env
