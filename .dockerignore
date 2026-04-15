@@ -6,3 +6,5 @@ dist
 Dockerfile
 .dockerignore
 README.md
+npm-debug.log
+.env
