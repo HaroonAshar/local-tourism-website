@@ -1,0 +1,19 @@
+18
+49/home/hello/local-tourism-website/dist/index.html1776280294761059014 0
+40/home/hello/local-tourism-website/styles1776279152627944865 1
+33/home/hello/local-tourism-website1776279541882708119 1
+50/home/hello/local-tourism-website/styles/style.css1776279148984512900 0
+48/home/hello/local-tourism-website/src/index.html1776278497136925743 0
+43/home/hello/local-tourism-website/README.md1776278497135789995 0
+44/home/hello/local-tourism-website/Dockerfile1776278497135789995 0
+76/home/hello/local-tourism-website/dist/local-tourism-website.59712999.js.map1776280294907055893 0
+37/home/hello/local-tourism-website/src1776279097184110902 1
+54/home/hello/local-tourism-website/src/destination.html1776278497135789995 0
+50/home/hello/local-tourism-website/src/contact.html1776279093245439179 0
+51/home/hello/local-tourism-website/src/packages.html1776278497136925743 0
+38/home/hello/local-tourism-website/dist1776280294915055722 1
+50/home/hello/local-tourism-website/src/gallery.html1776278497136925743 0
+72/home/hello/local-tourism-website/dist/local-tourism-website.59712999.js1776280294891056235 0
+47/home/hello/local-tourism-website/.dockerignore1776278497135789995 0
+46/home/hello/local-tourism-website/package.json1776279518202585684 0
+44/home/hello/local-tourism-website/.gitignore1776278497135789995 0
