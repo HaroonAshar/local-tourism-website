@@ -1,5 +1,5 @@
-FROM node:18
-WORKDIR /app
-COPY . .
-RUN npm install -g parcel
-CMD ["npx", "parcel", "src/index.html"]
+FROM nginx:alpine
+
+COPY dist/ /usr/share/nginx/html
+
+EXPOSE 80
