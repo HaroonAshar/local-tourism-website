@@ -1,12 +1,11 @@
+/* Global Styles (from Develop) */
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f4f4f4;
 }
 
-h1 {
-    color: darkblue;
-}
+h1 { color: darkblue; }
 
 nav a {
     margin: 10px;
@@ -14,16 +13,12 @@ nav a {
     color: black;
 }
 
+/* Main Content & Forms (from Develop) */
 main h2 {
     color: #0056b3;
     margin-top: 25px;
     border-bottom: 2px solid #eee;
     padding-bottom: 5px;
-}
-
-main p {
-    line-height: 1.6;
-    margin-bottom: 15px;
 }
 
 form {
@@ -38,16 +33,10 @@ button {
     color: white;
     padding: 8px;
     border: none;
+    cursor: pointer;
 }
 
-a {
-    color: blue;
-}
-
-a:hover {
-    color: red;
-}
-
+/* Packages (Consolidated) */
 .package-container {
     display: flex;
     flex-wrap: wrap;
@@ -65,38 +54,22 @@ a:hover {
     transition: transform 0.2s;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-}
+.card:hover { transform: translateY(-5px); }
+.card-content { padding: 15px; }
+.card h3 { color: #2c3e50; margin-top: 0; }
+.date { font-weight: bold; color: #e67e22; }
 
-.card-content {
-    padding: 15px;
-}
-
-.card h3 {
-    margin-top: 0;
-    color: #2c3e50;
-}
-
-.date {
-    font-weight: bold;
-    color: #e67e22;
-    margin-bottom: 10px;
-}
-
+/* Gallery (from Main/Member 4) */
 .gallery-container {
     max-width: 1000px;
     margin: 2rem auto;
-    padding: 0 1rem;
     text-align: center;
-    font-family: Arial, sans-serif;
 }
 
 .image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
-    margin-top: 2rem;
 }
 
 .image-grid img {
@@ -104,10 +77,12 @@ a:hover {
     height: 250px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
 }
 
-.image-grid img:hover {
-    transform: scale(1.05);
+.image-grid img:hover { transform: scale(1.05); }
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .image-grid img, .card { transition: none; transform: none; }
 }
