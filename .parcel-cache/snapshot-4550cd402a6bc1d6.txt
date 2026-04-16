@@ -1,0 +1,15 @@
+14
+34/home/haroon/local-tourism-website1776279003794582543 1
+44/home/haroon/local-tourism-website/README.md1776273141424492997 0
+52/home/haroon/local-tourism-website/src/packages.html1776275497310896483 0
+51/home/haroon/local-tourism-website/src/gallery.html1776275497310896483 0
+41/home/haroon/local-tourism-website/styles1776272770932453591 1
+45/home/haroon/local-tourism-website/.gitignore1776273186124553502 0
+48/home/haroon/local-tourism-website/.dockerignore1776273197979181326 0
+47/home/haroon/local-tourism-website/package.json1776273160602402899 0
+45/home/haroon/local-tourism-website/Dockerfile1776273212596935581 0
+51/home/haroon/local-tourism-website/styles/style.css1776275502823920383 0
+38/home/haroon/local-tourism-website/src1776272757198742421 1
+55/home/haroon/local-tourism-website/src/destination.html1776275497310896483 0
+49/home/haroon/local-tourism-website/src/index.html1776275497310896483 0
+51/home/haroon/local-tourism-website/src/contact.html1776275497310896483 0
