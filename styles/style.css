@@ -1,44 +1,42 @@
+/* Global Styles (from Develop) */
 body {
     font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
 }
 
-.gallery-container {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    text-align: center;
+h1 { color: darkblue; }
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
 }
 
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
+/* Main Content & Forms (from Develop) */
+main h2 {
+    color: #0056b3;
+    margin-top: 25px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
 }
 
-.image-grid img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+form {
+    background: white;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
 }
 
-.image-grid img:hover {
-    transform: scale(1.05);
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: reduce) {
-    .image-grid img {
-        transition: none;
-    }
-
-    .image-grid img:hover {
-        transform: none;
-    }
-}
-
+/* Packages (Consolidated) */
 .package-container {
     display: flex;
     flex-wrap: wrap;
@@ -56,21 +54,35 @@ body {
     transition: transform 0.2s;
 }
 
-.card:hover {
-    transform: translateY(-5px);
+.card:hover { transform: translateY(-5px); }
+.card-content { padding: 15px; }
+.card h3 { color: #2c3e50; margin-top: 0; }
+.date { font-weight: bold; color: #e67e22; }
+
+/* Gallery (from Main/Member 4) */
+.gallery-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    text-align: center;
 }
 
-.card-content {
-    padding: 15px;
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
 }
 
-.card h3 {
-    margin-top: 0;
-    color: #2c3e50;
+.image-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
 }
 
-.date {
-    font-weight: bold;
-    color: #e67e22;
-    margin-bottom: 10px;
+.image-grid img:hover { transform: scale(1.05); }
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .image-grid img, .card { transition: none; transform: none; }
 }
